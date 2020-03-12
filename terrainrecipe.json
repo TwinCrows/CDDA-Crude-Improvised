@@ -18,7 +18,7 @@
   {
     "type": "construction",
     "id": "constr_junkwall_half",
-    "description": "Build Wood Wall",
+    "description": "Build Junk Wall",
     "//": "Step 1: frame wall in an empty space",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 2 ] ],
@@ -34,7 +34,7 @@
   {
     "type": "construction",
     "id": "constr_junkwall",
-    "description": "Build Wood Wall",
+    "description": "Build Junk Wall",
     "//": "Step 2: complete the half made wall by putting paneling on it",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 2 ] ],
