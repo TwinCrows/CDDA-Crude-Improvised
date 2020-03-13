@@ -19,7 +19,7 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
 	"difficulty": 1,
-	"skills_required": [[ "fabrication", 3 ], ["survival", 3]],
+	"skills_required": [[ "fabrication", 2 ], ["survival", 2]],
     "time": "128 m",
     "autolearn": true,
     "components": [ [ [ "sheet_metal_small", 8 ] ], [ [ "rebar", 1 ], ["pipe", 1] ], [ [ "wire", 1 ] ] ]
@@ -31,7 +31,7 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
 	"difficulty": 1,
-	"skills_required": [[ "fabrication", 3 ], ["survival", 3]],
+	"skills_required": [[ "fabrication", 2 ], ["survival", 2]],
     "time": "24 m",
     "autolearn": true,
 	"qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 }, { "id": "CHISEL", "level": 1 } ],
@@ -47,7 +47,12 @@
 	"skills_required": [[ "fabrication", 2 ], ["survival", 2]],
     "time": "12 m",
     "autolearn": true,
-    "components": [ [ ["brick", 4] ], [ [ "2x4", 2 ],["stick", 4],["rebar", 2] ], [ ["wire", 2] ] ]
+    "components": 
+	[ 
+	[ ["brick", 4], ["steel_chunk", 2] ], 
+	[ [ "2x4", 2 ],["stick", 4],["rebar", 2], ["pipe", 2]], 
+	[ ["wire", 2], ["chain", 1] ] 
+	]
   },
   {
     "type": "recipe",
@@ -56,7 +61,7 @@
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
 	"difficulty": 1,
-	"skills_required": [[ "fabrication", 3 ], ["survival", 3]],
+	"skills_required": [[ "fabrication", 2 ], ["survival", 2]],
     "time": "12 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
@@ -72,7 +77,7 @@
 	"skills_required": [[ "fabrication", 1 ], ["survival", 1]],
     "time": "20 s",
     "autolearn": true,
-    "components": [ [ [ "sheet_metal_small", 4 ], ["plastic_chunk",4] ] ]
+    "components": [ [ [ "sheet_metal_small", 4 ], ["plastic_chunk", 4] ] ]
   },
   {
     "type": "recipe",
