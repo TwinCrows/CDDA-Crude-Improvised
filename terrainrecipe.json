@@ -25,7 +25,7 @@
     "time": "20 m",
     "components": 
 	[ 
-	[ [ "scrap", 100 ], ["2x4", 4] ],
+	[ [ "scrap", 100 ], ["wheel_wide_or", 4], ["wheel_wide", 4], ["wheel", 4], ["wheel_slick", 4], ["wheel_armor", 4], ["2x4", 4] ],
 	[ [ "wire", 4 ], ["nail", 10] ]
 	],
     "pre_special": "check_empty",
