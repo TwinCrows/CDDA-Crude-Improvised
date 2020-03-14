@@ -94,6 +94,37 @@
   },
   {
     "type": "recipe",
+    "result": "crude_wrench",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+	"difficulty": 1,
+	"skills_required": [[ "fabrication", 2 ], ["survival", 2]],
+    "time": "12 m",
+    "autolearn": true,
+	"qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "scrap", 30], ["steel_chunk", 2] ], [ [ "2x4", 1 ],["stick", 1], ["pipe", 1] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "crude_jackhammer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+	"difficulty": 1,
+	"skills_required": [[ "fabrication", 3 ], ["survival", 2]],
+    "time": "160 m",
+    "autolearn": true,
+	"qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "components": 
+	[ 
+	[ [ "rebar" , 1], ["scrap", 40], ["sheet_metal", 1] ], 
+	[ [ "2x4", 6 ], ["pipe", 4] ], 
+	[ [ "nail", 8], ["wire", 2] ] 
+	]
+  },
+  {
+    "type": "recipe",
     "result": "crude_chisel",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",

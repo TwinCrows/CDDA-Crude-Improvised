@@ -1,0 +1,24 @@
+[
+  {
+    "type": "AMMO",
+    "id": "crude_jackhammer_head",
+    "price": 400,
+    "name": { "str": "crude jackhammer head" },
+    "symbol": "=",
+    "color": "dark_gray",
+    "description": "The durable tip for a crude jackhammer.",
+    "material": "iron",
+    "volume": "200 ml",
+    "weight": "100 g",
+    "bashing": 4,
+    "cutting": 1,
+    "ammo_type": "crude_jackhammer_head_type",
+    "damage": 10,
+    "pierce": 5,
+    "dispersion": 0,
+	"fuel": { "energy": 250 },
+    "loudness": 1,
+    "count": 250,
+    "show_stats": false 
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "crude_jackhammer_head_type",
+    "name": "crude jackhammer head",
+    "default": "crude_jackhammer_head"
+  }
+]
