@@ -195,7 +195,7 @@
     "material": "steel",
     "symbol": "/",
     "color": "dark_gray",
-    "qualities": [ [ "DIG", 1 ], [ "BUTCHER", -4 ], [ "CUT", 1 ] ]
+    "qualities": [ [ "DIG", 2 ], [ "BUTCHER", -4 ], [ "CUT", 1 ] ]
   }
 
 ]
