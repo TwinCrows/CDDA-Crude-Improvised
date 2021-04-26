@@ -1,0 +1,15 @@
+[
+  {
+    "result": "improvised_lift",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "skills_required": [ "mechanics", 3 ],
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "drivebelt", 2], [ "drivebelt_makeshift", 2] ] ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "crane_tiny_improvised",
+    "type": "vehicle_part",
+    "name": { "str": "improvised lift" },
+    "item": "improvised_lift",
+    "location": "center",
+    "symbol": "+",
+    "broken_symbol": "=",
+    "color": "light_gray",
+    "broken_color": "light_blue",
+    "durability": 40,
+    "description": "An improvised vehicle lift, made of two crossing pipes with drive belts to hold the weight. By twisting the cross, the drive belts are retracted.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want jack up the other vehicle to change the its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
+    "folded_volume": 12,
+    "breaks_into": [ { "item": "pipe", "count": 2  }, { "item": "drivebelt", "count": 2 } ],
+    "qualities": [ [ "LIFT", 1 ], [ "JACK", 1 ] ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "20 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "PROTRUSION", "FOLDABLE" ]
+  }
+]

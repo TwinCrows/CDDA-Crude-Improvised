@@ -1,0 +1,15 @@
+[
+  {
+    "id": "improvised_lift",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "improvised lift" },
+    "description": "A vehicle lift, made of two crossing pipes with drive belts to hold the weight. By twisting the cross, the drive belts are retracted.  If attached to a frame it could be used to lift up to 0.5 metric tonnes.",
+    "price": 700,
+    "weight": "6000 g",
+    "volume": "8 L",
+    "material": "steel",
+    "symbol": "&",
+    "color": "dark_gray"
+  }
+]
